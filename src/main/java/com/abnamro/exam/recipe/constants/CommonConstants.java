@@ -5,7 +5,6 @@ package com.abnamro.exam.recipe.constants;
  *
  */
 public class CommonConstants {
-    public static final String RECIPE_INGREDIENTS_TABLE_NAME = "recipeIngredients";
     public static final String INGREDIENT_KEY = "ingredient";
     public static final String RECIPE_NAME_PATTERN = "^(?:\\p{L}\\p{M}*|[',. \\-]|\\s)*$";
     public static final String INGREDIENT_NAME_PATTERN = "^(?:\\p{L}\\p{M}*|[',. \\-]|\\s)*$";
