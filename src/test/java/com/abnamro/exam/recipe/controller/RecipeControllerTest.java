@@ -9,6 +9,7 @@ import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.abnamro.exam.recipe.service.RecipeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -18,7 +19,6 @@ import org.mockito.junit.MockitoJUnitRunner;
 import com.abnamro.exam.recipe.entity.Recipe;
 import com.abnamro.exam.recipe.model.RecipeRequest;
 import com.abnamro.exam.recipe.model.RecipeResponse;
-import com.abnamro.exam.recipe.service.RecipeService;
 
 
 @RunWith(MockitoJUnitRunner.class)

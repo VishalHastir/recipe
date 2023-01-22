@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import com.abnamro.exam.recipe.service.RecipeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,13 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.abnamro.exam.recipe.entity.Recipe;
 import com.abnamro.exam.recipe.model.RecipeRequest;
 import com.abnamro.exam.recipe.model.RecipeResponse;
 import com.abnamro.exam.recipe.model.RecipeSearchRequest;
-import com.abnamro.exam.recipe.service.RecipeService;
-
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

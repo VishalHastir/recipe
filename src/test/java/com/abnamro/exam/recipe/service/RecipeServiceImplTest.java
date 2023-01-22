@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.data.domain.Pageable;
 
 import com.abnamro.exam.recipe.entity.Recipe;
 import com.abnamro.exam.recipe.exception.DataNotFoundException;
@@ -26,7 +25,7 @@ import com.abnamro.exam.recipe.util.CustomMessagesUtil;
 
 
 @RunWith(MockitoJUnitRunner.class)
-public class RecipeServiceTest {
+public class RecipeServiceImplTest {
     @Mock
     private RecipeRepository recipeRepository;
 
